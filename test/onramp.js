@@ -33,8 +33,6 @@ async function initialize() {
     .mount("#onramp-element");
 }
 
-// ------- UI helpers -------
-
 function showMessage(messageText) {
   const messageContainer = document.querySelector("#onramp-message");
 

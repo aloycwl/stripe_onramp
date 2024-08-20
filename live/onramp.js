@@ -1,4 +1,3 @@
-// This is your test publishable API key.
 const stripeOnramp = StripeOnramp("pk_test_51ONR74CREOY0emWD7HFOjiXgWaOECPrXWWedmH1qeiBbrqE1Kithn4wUP0b8E86toaIzdYRbS3x4v3MYBPUq07Kd00zDYGzZaL");
 
 let session;
@@ -33,8 +32,6 @@ async function initialize() {
     })
     .mount("#onramp-element");
 }
-
-// ------- UI helpers -------
 
 function showMessage(messageText) {
   const messageContainer = document.querySelector("#onramp-message");
