@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Crypto Onramp</title>
-    <meta name="description" content="A demo of Stripe onramp" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="onramp.css" />
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="https://crypto-js.stripe.com/crypto-onramp-outer.js"></script>
-    <script src="onramp.js" defer></script>
-  </head>
-  <body>
-    <div id="root">
-      <div id="onramp-message"></div>
-      <div id="onramp-element">
-        <!--Stripe injects the Onramp widget-->
-      </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Crypto Onramp</title>
+  <meta name="description" content="A demo of Stripe onramp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="test/onramp.css" />
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="https://crypto-js.stripe.com/crypto-onramp-outer.js"></script>
+  <script src="test/onramp.js" defer></script>
+</head>
+
+<body>
+  <div id="root">
+    <div id="onramp-message"></div>
+    <div id="onramp-element">
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
