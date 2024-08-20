@@ -6,7 +6,7 @@ initialize();
 
 async function initialize() {
   const response = await fetch(
-    "/create-onramp-session",
+    "/test/create-onramp-session",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
